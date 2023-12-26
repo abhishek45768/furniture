@@ -1,0 +1,313 @@
+
+<doctype! html>
+    <html>
+    <head>
+      <title>HOME</title>
+        <style>
+          ul{
+            font-size: 10px;
+          }
+      header{
+        width: 100%;
+      }
+      nav{
+	  height:71px;
+        width:103%;
+        box-shadow: 0px 30px 16px 0px gray;
+		margin: 19px 0 0 -13px;
+      }
+      ul{
+           font-size: 15px;
+    padding: 0%;
+    margin: 0 0 0px 150px;
+    list-style: none;
+      }
+    li{
+      float:left;
+	  color:black;
+    }
+    .logo img{
+      margin-top:-10px;
+      margin-left: 5px;
+      position: absolute;
+      border-radius: 50px;
+      width: 70px;
+      height:70px;
+
+    }
+    nav a{
+    text-decoration:none;
+width: 70px;
+    display: block;
+    padding: 0 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+    cursor: pointer;
+    margin: 0 48px 0 4px;
+    }
+    
+      .search-form {
+    display: flex; 
+    padding-top: 31px;
+    padding-left: 150px;
+    padding-right: 50px;
+  }
+
+  .search-form input[type="text"] {
+        width: 300px;
+    padding-top: 0px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 22px;
+  }
+  .background{
+    display: flex;
+  width: 100%;
+  height: 80%;
+  }
+  .background {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-right:0px;
+    padding-left:11px;
+    overflow: hidden;
+  }
+  .content {
+	width: 80%;
+	margin:-71px 5px 0 100px  ;
+	padding-top: 50px;
+	text-align: center;
+  color:black;
+}
+
+h1 {
+	font-size: 60px;
+	margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+p {
+	font-size: 22px;
+	line-height: 1.5;
+}
+.slider{
+    position: relative;
+    height: 610px;
+    width: 1100px;
+    margin-left: 86px;
+    overflow: hidden;
+    top:10px;
+	box-shadow:0px 0px 16px 0px black;
+}
+.sliderimg{
+    position: absolute;
+    float: left;
+    height:100% ;
+    width: 100%;
+    left: 0px;
+    animation: slide 50s  infinite;
+	background-size:cover;
+    background-image: url('f1.jpg');
+}
+@keyframes slide{
+    0%{
+        left: 0px;
+    }
+    20%{
+        left:1101px;
+    }
+    30%{
+        left: 2202px;
+    }
+    40%{
+        left:3303px;
+    }
+    50%{
+        left: 2202px;
+    }
+    60%{
+        left:1101px;
+    }
+    70%{
+        left: 0px;
+    }
+}
+
+.sliderimg1{
+    position: absolute;
+    float: left;
+    height:100% ;
+    width: 100%;
+    left: -1101px;
+    animation: slide1 50s  infinite;
+	background-size:cover;
+    background-image: url('f2.jpg');
+    
+}
+@keyframes slide1{
+    0%{
+        left: -1101px;
+    }
+    20%{
+        left:0px;
+    }
+    30%{
+        left: 1101px;
+    }
+    40%{
+        left:2202px;
+    }
+    50%{
+        left: 1101px;
+    }
+    60%{
+        left:0px;
+    }
+    70%{
+        left: -1101px;
+    }
+}
+.sliderimg2{
+    position: absolute;
+    float: left;
+    height:100% ;
+    width: 100%;
+    left: -2202px;
+    animation: slide2 50s  infinite;
+	background-size:cover;
+    background-image: url('f3.jpg');
+    
+    
+}
+@keyframes slide2{
+    0%{
+        left: -2202px;
+    }
+    20%{
+        left: -1101px;
+    }
+    30%{
+        left: 0px;
+    }
+    40%{
+        left:1101px;
+    }
+    50%{
+        left: 0px;
+    }
+    60%{
+        left:-1101px;
+    }
+    70%{
+        left: -2202px;
+    }
+}
+.sliderimg3{
+    position: absolute;
+    float: left;
+    height:100% ;
+    width: 100%;
+    left: -2202px;
+    animation: slide3 50s  infinite;
+	background-size:cover;
+    background-image: url('f4.jpg');
+    
+    
+}
+@keyframes slide3{
+    0%{
+        left: -3303px;
+    }
+    20%{
+        left: -2202px;
+    }
+    30%{
+        left: -1101px;
+    }
+    40%{
+        left:0px;
+    }
+    50%{
+        left: -1101px;
+    }
+    60%{
+        left:-2202px;
+    }
+    70%{
+        left: -3303px;
+    }
+}
+.center{
+    height: 610px;
+    width: 100%;
+}
+body{
+	overflow-x:hidden;
+	}
+	li{
+		margin-top:30px;
+		text-decoration:none;
+		}
+		footer{
+		text-align:center;
+		background-color:aqua;
+		}
+		button{
+		height:40px;
+		width:100px;
+		position:absolute;
+		text-align:center;
+		background-color:white;
+		color:black;
+		font-weight:bolder;
+		border-radius:20px;
+		margin-top:17px;
+		animation: a 2s infinite;
+		}
+		@keyframes a{
+		0%{
+		background-color:white;
+		}
+		100%{
+		background-color:black;
+		color:white;
+		}
+		}
+	
+	
+        </style>
+ </head>
+    <body>
+      <header>
+      <div class='logo'><a href ='#'><img  src ="logo1.jpg"></a></div>
+      <nav>
+        <ul>
+            <li><a href="deals.html" target="_blank">DEAL ZONE </a></li>
+            <li><a href="s&r.html"target="_blank">SOFAS & RECLINER </a></li>
+            <li><a href="outdoor.html"target="_blank">OUTDOOR </a></li>
+            <li><a href="study.html" target="_blank">STUDY </a></li>
+            <li><a href="living.html"target="_blank">LIVING </a></li>
+            <li><a href="trending.html"target="_blank">TRENDING </a></li></ul>
+			<a href="login.html"target="_blank"><button>LOGIN</button></a>
+        <form class="search-form">
+  <input type="text" placeholder="Search..."> </form>
+  </header>  
+       
+        <form><div class="content">
+          <h1>Welcome to our website!</h1>
+          <p>We look forward to supporting you along the way.” “Congratulations on the new position, and many good wishes for your first day at furniture web site. We want you to know that we believe in you and we're behind you in everything you do here.” “A warm welcome from the whole team here at furniture website</p>
+        </div>
+      <div class="center">
+          <div class="background"><div class="slider">
+            <img  class="sliderimg" >
+            <img  class="sliderimg1" >
+            <img  class="sliderimg2" >
+            <img  class="sliderimg3" >
+        </div>    
+        </div></form> 
+			<footer>©CopyRight 2023 by Abhishek</footer>
+    </body>
+    
+    </html>

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>STUDY</title>
+    <style>
+        .logo img{
+      margin-top:0px;
+      margin-left: 5px;
+      position: absolute;
+      border-radius: 50px;
+      width:100px;
+      height:100px;
+    }
+        .image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.image-gallery img {
+    
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  margin: 5px;
+ box-shadow:0px 0px 16px 0px black;
+  border-radius: 5px;
+  padding-left: 0px;
+  padding-right: 10px;
+}
+.heading{
+    border-radius: 50px;
+    padding-left: 475px;
+    font-size: 30px;
+    font-family:fantasy ;
+    color:rgb(17, 17, 16);
+    border:6px solid rgb(19, 19, 18);
+    margin-left:150px;
+    margin-right:150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:honeydrew;
+
+}
+.light{
+ color:aqua;
+}
+.dark{
+    color:black;
+}
+.line{
+    justify-content: center;
+    padding-left:70px;
+    padding-right: 70px;
+}
+     ul{
+            font-size: 10px;
+          }
+      header{
+        width: 100%;
+      }
+      nav{
+        width:103%;
+        box-shadow: 0px 30px 16px 0px gray;
+		margin: 19px 0 0 -13px;
+      }
+      ul{
+           font-size: 15px;
+    padding: 0%;
+    margin: 0 0 0px 150px;
+    list-style: none;
+      }
+    li{
+      float:left;
+	  color:black;
+    }
+    .logo img{
+      margin-top:-0px;
+      margin-left: 5px;
+      position: absolute;
+      border-radius: 50px;
+      width: 70px;
+      height:70px;
+
+    }
+    nav a{
+    text-decoration:none;
+width: 70px;
+    display: block;
+    padding: 0 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+    cursor: pointer;
+    margin: -1px 48px 0 4px;
+    }
+    
+      .search-form {
+       display: flex;
+    padding-top: 43px;
+    padding-left: 159px;
+    padding-right: 50px;
+  }
+
+  .search-form input[type="text"] {
+        width: 300px;
+    padding-top: 0px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 22px;
+  }
+  .background{
+    display: flex;
+  width: 100%;
+  height: 80%;
+  }
+  .background {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-right:0px;
+    padding-left:11px;
+    overflow: hidden;
+  }
+  .content {
+	width: 80%;
+	margin:-71px 5px 0 100px  ;
+	padding-top: 50px;
+	text-align: center;
+  color:black;
+}
+
+h1 {
+	font-size: 60px;
+	margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+p {
+	font-size: 22px;
+	line-height: 1.5;
+}
+.slider{
+    position: relative;
+    height: 400px;
+    width: 1100px;
+    margin-left: 86px;
+    overflow: hidden;
+    top:10px;
+}
+.sliderimg{
+    position: absolute;
+    float: left;
+    height:100% ;
+    width: 100%;
+    left: 0px;
+    animation: slide 50s  infinite;
+
+    background-image: url('Baltoro_High_Gloss_Hydraulic_Storage_Bed_King_LP.jpg');
+}
+@keyframes slide{
+    0%{
+        left: 0px;
+    }
+    20%{
+        left:1101px;
+    }
+    30%{
+        left: 2202px;
+    }
+    40%{
+        left:3303px;
+    }
+    50%{
+        left: 2202px;
+    }
+    60%{
+        left:1101px;
+    }
+    70%{
+        left: 0px;
+    }
+}
+
+.sliderimg1{
+    position: absolute;
+    float: left;
+    height:100% ;
+    width: 100%;
+    left: -1101px;
+    animation: slide1 50s  infinite;
+    background-image: url('FVTBCF33WW20625_LP.jpg');
+    
+}
+@keyframes slide1{
+    0%{
+        left: -1101px;
+    }
+    20%{
+        left:0px;
+    }
+    30%{
+        left: 1101px;
+    }
+    40%{
+        left:2202px;
+    }
+    50%{
+        left: 1101px;
+    }
+    60%{
+        left:0px;
+    }
+    70%{
+        left: -1101px;
+    }
+}
+.sliderimg2{
+    position: absolute;
+    float: left;
+    height:100% ;
+    width: 100%;
+    left: -2202px;
+    animation: slide2 50s  infinite;
+    background-image: url('Bond_Study_Table_Classic_Walnut_LP.jpg');
+    
+    
+}
+@keyframes slide2{
+    0%{
+        left: -2202px;
+    }
+    20%{
+        left: -1101px;
+    }
+    30%{
+        left: 0px;
+    }
+    40%{
+        left:1101px;
+    }
+    50%{
+        left: 0px;
+    }
+    60%{
+        left:-1101px;
+    }
+    70%{
+        left: -2202px;
+    }
+}
+.sliderimg3{
+    position: absolute;
+    float: left;
+    height:100% ;
+    width: 100%;
+    left: -2202px;
+    animation: slide3 50s  infinite;
+    background-image: url('Duetto_Platform_Bed_LP.jpg');
+    
+    
+}
+@keyframes slide3{
+    0%{
+        left: -3303px;
+    }
+    20%{
+        left: -2202px;
+    }
+    30%{
+        left: -1101px;
+    }
+    40%{
+        left:0px;
+    }
+    50%{
+        left: -1101px;
+    }
+    60%{
+        left:-2202px;
+    }
+    70%{
+        left: -3303px;
+    }
+}
+.center{
+    height: 413px;
+    width: 100%;
+}
+body{
+	overflow-x:hidden;
+	}
+	li{
+		margin-top:30px;
+		text-decoration:none;
+		}
+		footer{
+		text-align:center;
+		background-color:aqua;
+		}
+		button{
+		height:40px;
+		width:100px;
+		position:absolute;
+		text-align:center;
+		background-color:white;
+		color:black;
+		font-weight:bolder;
+		border-radius:20px;
+		margin-top:17px;
+		animation: a 2s infinite;
+		}
+		@keyframes a{
+		0%{
+		background-color:white;
+		}
+		100%{
+		background-color:skyblue;
+		color:black;
+		}
+		}
+				footer{
+		text-align:center;
+		background-color:aqua;
+		}
+    </style>
+</head>
+<body>  
+ <header>
+      <div class='logo'><a href ='#'><img  src ="logo1.jpg"></a></div>
+      <nav>
+        <ul>
+            <li><a href="deals.html" target="_blank">DEAL ZONE </a></li>
+            <li><a href="s&r.html">SOFAS & RECLINER </a></li>
+            <li><a href="outdoor.html">OUTDOOR </a></li>
+            <li><a href="study.html" target="_blank">STUDY </a></li>
+            <li><a href="living.html">LIVING </a></li>
+            <li><a href="trending.html">TRENDING </a></li></ul>
+			<a href="login.html"><button>LOGIN</button></a>
+        <form class="search-form">
+  <input type="text" placeholder="Search..."> </form>
+  </header>  
+   
+    <div class="heading">
+    <p>STUDY TABLES</p>
+    </div>
+    <div class="line"><hr><b><p>If there is anything that has the potential to bring out the best in your work, it is the right study table that fits snugly with your needs and enhances the corners of your room. </p></b><hr>
+    </div>
+    <div class="image-gallery">
+       <a> <img src="Bond_Study_Table_Classic_Walnut_LP.jpg" alt="Image 1">
+        <p>study table in calsic walnut finish</p>
+        <div class="light">
+            <p>by urban ladder</p>
+            <p><strike>&#8377;17000</strike></div>
+                &#8377;8000|EMI from&#8377;800</p><hr>
+    </a>
+        <a><img src="FVTBST33WN20593_LP.jpg" alt="Image 2">
+            <p>study table in calsic wenge finish</p>
+           <div class="light"> <p>by bluewud </p>
+            <p><strike>&#8377;8000</strike></div>&#8377;7000|EMI from&#8377;1800</p><hr></a>
+        <a><img src="Kevin_Study_compact_study_table_Classic_WalnutLP_1.jpg" alt="Image 3">
+            <p>wood study table in wengee & walnut finish</p>
+            <div class="light"><p>by bluewud</p>
+            <p><strike>&#8377;6000</strike></div>&#8377;4800|EMI from&#8377;800</p><hr></a>
+        <a><img src="Larsson_Study_Table_TK_00_LP.jpg" alt="Image 4">
+            <p>solid wood table in teak finish</p>
+            <div class="light"><p>by urban ladder</p>
+            <p><strike>&#8377;10000</strike></div>&#8377;8000|EMI from&#8377;2000</p><hr></a>
+        <a><img src="Truman_Study_Table__Creamy_Crust_Finish_Teak_LP.jpg" alt="Image 5">
+            <p>wood study table in cherry melimine finish</p>
+            <div class="light"><p>by urban laders</p>
+            <p><strike>&#8377;8000</strike></div>&#8377;5000|EMI from&#8377;200</p><hr></a>
+       <a> <img src="Twain_Study_Table_LP.jpg" alt="Image 6">
+        <p>solid wood study table in teak finish</p>
+        <div class="light"><p>by urban ladder</p>
+        <p><strike>&#8377;14000</strike></div>&#8377;8000|EMI from&#8377;2800</p><hr></a>
+      </div>
+      </td>
+    </tr>
+    </form>
+	<footer>©CopyRight 2023 by Abhishek</footer>
+</body>
+</html>

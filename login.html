@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .login{
+           height: 22rem;
+    width: 37.5rem;
+    margin: auto;
+    margin-top: 7rem;
+    text-align: center;
+    padding-top: 0rem;
+    display: flex;
+    padding-left: 5rem;
+    background-color: white;
+    box-shadow: 0rem 0rem 2rem 0rem gray;
+    border-radius: 6.25rem;
+    animation: shadow 2s;
+        }
+    @keyframes shadow{
+        0%{
+            box-shadow:  0rem 0rem 2rem 50rem black;
+        }
+        100%{
+            box-shadow: 0rem 0rem 2rem 0rem gray;
+        }
+    }
+        input{
+            width: 25rem;
+            border-radius: 1rem;
+            height: 1.5rem;
+        }
+        button{
+            border-radius: 1rem;
+            height: 2rem;
+            font-size: 1rem;
+            width: 8rem;
+            font-weight: bolder;
+            color: white;
+            background-color: blue;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: blueviolet;
+            transition: 1s;
+        }
+        body{
+            background-color: #ddd;
+            background-size: cover;
+            font-weight: bolder;
+        }
+        h2{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 3rem;
+        }
+        label{
+            font-size:1.3rem ;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <form action="content.php" method="post">
+            <table>
+                <h2>LOGIN</h2>
+                <tr>USERNAME:
+                <input type="text"  id="text" placeholder="eg:xyz45" required name="username"><br><br>
+                </tr>
+                <tr>PASSWORD:
+                    <input type="password" id="pwd" placeholder="password" name="password"><br>
+                </tr>
+                    <br><a href="index.html"><button onclick="login()">login</button></a>
+                    <P>Don't have an account?<a href="register.html">Create your account!</a></P>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

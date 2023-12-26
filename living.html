@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> LIVING</title>
+    <style>
+        .logo img{
+      margin-top:0px;
+      margin-left: 5px;
+      position: absolute;
+      border-radius: 50px;
+      width:100px;
+      height:100px;
+    }
+        .image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.image-gallery img {
+    
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  margin: 5px;
+ 
+  border-radius: 5px;
+  padding-left: 0px;
+  padding-right: 10px;
+  box-shadow:0px 0px 16px 0px black;
+}
+.heading{
+    border-radius: 50px;
+    padding-left: 380px;
+    font-size: 30px;
+    font-family:fantasy ;
+    color:rgb(10, 10, 10);
+    border:6px solid rgb(10, 10, 10);
+    margin-left:150px;
+    margin-right:150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:honeydrew;
+}
+.light{
+ color:aqua;
+}
+.dark{
+    color:black;
+}
+.line{
+    justify-content: center;
+    padding-left:450px;
+    padding-right: 70px;
+}
+      header{
+        width: 100%;
+      }
+      nav{
+        width:103%;
+        box-shadow: 0px 30px 16px 0px gray;
+		margin: 19px 0 0 -13px;
+      }
+      ul{
+           font-size: 15px;
+    padding: 0 0 0 101px;
+   
+    list-style: none;
+      }
+    li{
+      float:left;
+	  color:black;
+    }
+    .logo img{
+      margin-top:-0px;
+      margin-left: 5px;
+      position: absolute;
+      border-radius: 50px;
+      width: 70px;
+      height:70px;
+
+    }
+    nav a{
+    text-decoration:none;
+width: 70px;
+    display: block;
+    padding: 0 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+    cursor: pointer;
+    margin: -1px 48px 0 4px;
+    }
+    
+      .search-form {
+       display: flex;
+    padding-top: 43px;
+    padding-left: 130px;
+    padding-right: 50px;
+  }
+
+  .search-form input[type="text"] {
+        width: 253px;
+    padding-top: 0px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 22px;
+  }
+  .background{
+    display: flex;
+  width: 100%;
+  height: 80%;
+  }
+  .background {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-right:0px;
+    padding-left:11px;
+    overflow: hidden;
+  }
+  .content {
+	width: 80%;
+	margin:-71px 5px 0 100px  ;
+	padding-top: 50px;
+	text-align: center;
+  color:black;
+}
+
+h1 {
+	font-size: 60px;
+	margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+p {
+	font-size: 30px;
+	line-height: 1.5;
+}
+.slider{
+    position: relative;
+    height: 400px;
+    width: 1100px;
+    margin-left: 86px;
+    overflow: hidden;
+    top:10px;
+}
+.sliderimg{
+    position: absolute;
+    float: left;
+    height:100% ;
+    width: 100%;
+    left: 0px;
+    animation: slide 50s  infinite;
+
+    background-image: url('Baltoro_High_Gloss_Hydraulic_Storage_Bed_King_LP.jpg');
+}
+@keyframes slide{
+    0%{
+        left: 0px;
+    }
+    20%{
+        left:1101px;
+    }
+    30%{
+        left: 2202px;
+    }
+    40%{
+        left:3303px;
+    }
+    50%{
+        left: 2202px;
+    }
+    60%{
+        left:1101px;
+    }
+    70%{
+        left: 0px;
+    }
+}
+
+.sliderimg1{
+    position: absolute;
+    float: left;
+    height:100% ;
+    width: 100%;
+    left: -1101px;
+    animation: slide1 50s  infinite;
+    background-image: url('FVTBCF33WW20625_LP.jpg');
+    
+}
+@keyframes slide1{
+    0%{
+        left: -1101px;
+    }
+    20%{
+        left:0px;
+    }
+    30%{
+        left: 1101px;
+    }
+    40%{
+        left:2202px;
+    }
+    50%{
+        left: 1101px;
+    }
+    60%{
+        left:0px;
+    }
+    70%{
+        left: -1101px;
+    }
+}
+.sliderimg2{
+    position: absolute;
+    float: left;
+    height:100% ;
+    width: 100%;
+    left: -2202px;
+    animation: slide2 50s  infinite;
+    background-image: url('Bond_Study_Table_Classic_Walnut_LP.jpg');
+    
+    
+}
+@keyframes slide2{
+    0%{
+        left: -2202px;
+    }
+    20%{
+        left: -1101px;
+    }
+    30%{
+        left: 0px;
+    }
+    40%{
+        left:1101px;
+    }
+    50%{
+        left: 0px;
+    }
+    60%{
+        left:-1101px;
+    }
+    70%{
+        left: -2202px;
+    }
+}
+.sliderimg3{
+    position: absolute;
+    float: left;
+    height:100% ;
+    width: 100%;
+    left: -2202px;
+    animation: slide3 50s  infinite;
+    background-image: url('Duetto_Platform_Bed_LP.jpg');
+    
+    
+}
+@keyframes slide3{
+    0%{
+        left: -3303px;
+    }
+    20%{
+        left: -2202px;
+    }
+    30%{
+        left: -1101px;
+    }
+    40%{
+        left:0px;
+    }
+    50%{
+        left: -1101px;
+    }
+    60%{
+        left:-2202px;
+    }
+    70%{
+        left: -3303px;
+    }
+}
+.center{
+    height: 413px;
+    width: 100%;
+}
+body{
+	overflow-x:hidden;
+	}
+	li{
+		margin-top:30px;
+		text-decoration:none;
+		}
+		footer{
+		text-align:center;
+		background-color:aqua;
+		}
+		button{
+		height:40px;
+		width:100px;
+		position:absolute;
+		text-align:center;
+		background-color:white;
+		color:black;
+		font-weight:bolder;
+		border-radius:20px;
+		margin-top:17px;
+		animation: a 2s infinite;
+		}
+		@keyframes a{
+		0%{
+		background-color:white;
+		}
+		100%{
+		background-color:skyblue;
+		color:black;
+		}
+		}
+				footer{
+		text-align:center;
+		background-color:aqua;
+		}
+    </style>
+</head>
+<body > 
+<header>
+      <div class='logo'><a href ='#'><img  src ="logo1.jpg"></a></div>
+      <nav>
+        <ul>
+           <li><a href="deals.html" target="_blank">DEAL ZONE </a></li>
+           <li><a href="s&r.html" target="_blank">SOFAS & RECLINER </a></li>
+           <li><a href="outdoor.html" target="_blank">OUTDOOR </a></li>
+           <li><a href="study.html" target="_blank">STUDY </a></li>
+           <li><a href="living.html" target="_blank">LIVING </a></li>
+           <li><a href="trending.html" target="_blank">TRENDING </a></li></ul>
+           <a href="login.html" target="_blank"><button>LOGIN</button></a>
+			<a href="login.html" target="_blank"><button>LOGIN</button></a>
+        <form class="search-form">
+  <input type="text" placeholder="Search..."> </form>
+  </header>  
+      
+    <div class="heading">
+    <p>LIVING</p>
+</div>
+<hr><b><p class="line">Deals of the day. Dont miss it!</p></b><hr>
+</div>
+    <div class="image-gallery">
+       <a> <img src="Duetto_Platform_Bed_LP.jpg" alt="Image 1">
+        <p>Solid wood king size bed</p>
+        <div class="light">
+            <p>by urban ladder</p>
+            <p><strike>&#8377;78000</strike></div>
+                &#8377;48000|EMI from&#8377;2800</p><hr>
+    </a>
+        <a><img src="FVSTCH51BK37577_LP.jpg" alt="Image 2">
+            <p>fabric study cfhair in black color </p>
+           <div class="light"> <p>by MBTC </p>
+            <p><strike>&#8377;8000</strike></div>&#8377;7000|EMI from&#8377;1800</p><hr></a>
+        <a><img src="FVTBCF33WW20625_LP.jpg" alt="Image 3">
+            <p>wood coffe table in wengee & walnut finish</p>
+            <div class="light"><p>by bluewud</p>
+            <p><strike>&#8377;6000</strike></div>&#8377;4800|EMI from&#8377;800</p><hr></a>
+        <a><img src="Baltoro_High_Gloss_Hydraulic_Storage_Bed_King_LP.jpg" alt="Image 4">
+            <p>king size bed with hydraulic white finish</p>
+            <div class="light"><p>by urban ladder</p>
+            <p><strike>&#8377;103000</strike></div>&#8377;58000|EMI from&#8377;2000</p><hr></a>
+        <a><img src="LP.jpg" alt="Image 5">
+            <p>ormond plain white accent chair</p>
+            <div class="light"><p>by gypsy trunk</p>
+            <p><strike>&#8377;8000</strike></div>&#8377;400|EMI from&#8377;200</p><hr></a>
+       <a> <img src="Truman_Study_Table__Creamy_Crust_Finish_Teak_LP.jpg" alt="Image 6">
+        <p>solid wood study table in teak finish</p>
+        <div class="light"><p>by urban ladder</p>
+        <p><strike>&#8377;14000</strike></div>&#8377;8000|EMI from&#8377;2800</p><hr></a>
+      </div>
+      </td>
+    </tr>
+    </form>
+	<footer>©CopyRight 2023 by Abhishek</footer>
+	
+</body>
+</html>
